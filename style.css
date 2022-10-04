@@ -19,7 +19,6 @@ html, body
     background-color: var(--neutral-3);
     margin: 0;
     font-family: Poppins, Arial;
-    overflow: hidden;
 }
 
 main
