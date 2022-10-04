@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+:root
+{
+    --prim-red: hsl(0, 78%, 62%);
+    --prim-cyan: hsl(180, 62%, 55%);
+    --prim-orange: hsl(34, 97%, 64%);
+    --prim-blue: hsl(212, 86%, 64%);
+
+    --neutral-1: hsl(234, 12%, 34%);
+    --neutral-2: hsl(229, 6%, 66%);
+    --neutral-3: hsl(0, 0%, 98%);
+    --neutral-4: hsl(0, 0%, 0%);
+}
+
+html, body
+{
+    height: 100%;
+    background-color: var(--neutral-3);
+    margin: 0;
+    font-family: Poppins, Arial;
+    overflow: hidden;
+}
+
+main
+{
+    height: 100%;
+}
+
+.text-cont
+{
+    text-align: center;
+    color: var(--neutral-1);
+}
+
+.text-cont h1
+{
+    font-size: 40px;
+}
+
+.text-cont p
+{
+    font-weight: 200;
+    margin-bottom: 0;
+}
+
+.text1
+{
+    font-size: 38px;
+}
+
+.text2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.text2 p
+{
+    color: var(--neutral-1);
+}
+
+.text-cont span
+{
+    font-weight: 600;
+}
+
+.text-cont .bottom-text
+{
+    width: 500px;
+    font-weight: 400;
+}
+
+.boxes-cont
+{
+    display: grid;
+    grid-template-columns: 420px 420px 420px;
+    align-items: center;
+    justify-content: center;
+    color: var(--neutral-2)
+}
+
+.box1, .box2, .box3, .box4
+{
+    height: 250px;
+    width: 325px;
+    text-align: left;
+    padding-right: 30px;
+    padding-left: 30px;
+    box-shadow: 0px 0px 10px 2px hsla(0, 0%, 0%, 0.2);
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.box1{border-top: 4px solid var(--prim-cyan);}
+.box2{border-top: 4px solid var(--prim-red);}
+.box3{border-top: 4px solid var(--prim-orange);}
+.box4{border-top: 4px solid var(--prim-blue);}
+
+.box1 p, .box2 p, .box3 p, .box4 p
+{
+    height: 50px;
+    color: var(--neutral-2);
+}
+
+.box1 h2, .box2 h2, .box3 h2, .box4 h2
+{
+    color: var(--neutral-1);
+}
+
+.col1, .col2, .col3
+{
+    margin: 0 auto;
+}
+
+.builder, .karma, .calculator, .supervisior
+{
+    margin-left: 270px;
+    margin-top: 25px;
+}
